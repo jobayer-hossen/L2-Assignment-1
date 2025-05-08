@@ -6,7 +6,7 @@
 - Example:
     ```typescript
     let value: any = 42;
-    value = "Hello"; // No error
+    value = "Hello"; 
     ```
 
 ### ❓ **`unknown`**
@@ -16,7 +16,7 @@
     ```typescript
     let value: unknown = 42;
     if (typeof value === "number") {
-        console.log(value + 10); // Safe
+        console.log(value + 10); 
     }
     ```
 
@@ -38,9 +38,9 @@
         type StringOrNumber = string | number;
 
         let value: StringOrNumber;
-        value = "Hello"; // Valid
-        value = 42;      // Valid
-        // value = true; // Error: Type 'boolean' is not assignable to type 'StringOrNumber'
+        value = "Hello"; 
+        value = 42;     
+        
 
     ```
 
