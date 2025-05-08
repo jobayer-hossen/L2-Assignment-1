@@ -1,4 +1,6 @@
-# 1 No Q. Explain the Difference Between `any`, `unknown`, and `never` Types in TypeScript
+ ## 🎯 Interview Questions - Blog Task
+
+# 1 No Q. Explain the Difference Between `any`, `unknown`, and `never` Types in TypeScript .
 
 ### 🔍 **`any`**
 - The `any` type allows any value to be assigned to a variable.
@@ -29,7 +31,7 @@
         throw new Error(message);
     }
     ```
-# 2 No Q. 🔗 Union and Intersection Types
+# 2 No Q. Provide an example of using union and intersection types in TypeScript.
 
 #### **Union Types**
 - A union type allows a variable to hold one of several types.

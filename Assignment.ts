@@ -8,7 +8,7 @@ function formatString(input: string, toUpper?: boolean): string {
 
 
 function filterByRating(items: { title: string; rating: number }[] ): { title: string; rating: number }[] {
-  
+
   let newFilteredBooks: { title: string; rating: number }[] = [];
   
   const filterBooks = items?.filter((items) => items?.rating > 4.0);
@@ -56,7 +56,7 @@ class Car extends Vehicle {
   }
 
 
-function processValue(value: string | number): string | number {
+function processValue(value: string | number): number {
 
     if (typeof value === "string") {
       return value?.length;
